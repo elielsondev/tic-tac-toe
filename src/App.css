@@ -15,8 +15,8 @@ body {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 240px);
-  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(3, 170px);
+  grid-template-rows: repeat(3, 160px);
   gap: 1rem;
 }
 
@@ -48,13 +48,13 @@ body {
 .cell.O {
   background-color: blue;
   color: white;
-  font-size: 1000%;
+  font-size: 600%;
 }
 
 .cell.X {
   background-color: red;
   color: white;
-  font-size: 1000%;
+  font-size: 600%;
 }
 
 .resetGame {

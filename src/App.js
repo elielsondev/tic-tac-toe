@@ -42,9 +42,10 @@ function App() {
   })
 
   const resetGame = () => {
-    setCurrentPlayer(winner);
-    setBoard(emptyBoard);
-    setWinner(null);
+    // setCurrentPlayer(winner);
+    // setBoard(emptyBoard);
+    // setWinner(null);
+    window.location.reload();
   }
 
   return (
